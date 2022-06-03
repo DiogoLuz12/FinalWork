@@ -15,6 +15,6 @@ class TabelaArtista(db: SQLiteDatabase) : TabelasBD(db, NOME)  {
         const val NOME = "Name"
         const val BDY = "Birthay"
         const val GENRE = "Genre"
-        const val CAMPO_CATEGORIA_ID = "categoriaId"
+        const val BIO = "Biography"
     }
 }
