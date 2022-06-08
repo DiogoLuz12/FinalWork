@@ -14,9 +14,9 @@ class BDLivrosOpenHelper(
         requireNotNull(db)
 
         TabelaArtista(db).cria()
-        TabelaMusica(db).cria()
+        TabelaMusic(db).cria()
         TabelaPlaylist(db).cria()
-        TabelaUser(db).cria()
+
 
     }
 

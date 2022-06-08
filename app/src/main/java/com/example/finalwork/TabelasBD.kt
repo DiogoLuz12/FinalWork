@@ -3,7 +3,7 @@ package com.example.finalwork
 import android.content.ContentValues
 import android.database.sqlite.SQLiteDatabase
 
-class TabelasBD {
+open class TabelasBD(db: SQLiteDatabase, NOME: String) {
     abstract class TabelaBD (val db: SQLiteDatabase, val nome: String) {
         abstract fun cria()
 
